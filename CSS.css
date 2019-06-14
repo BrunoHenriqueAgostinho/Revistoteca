@@ -1,0 +1,130 @@
+/* É a div que engloba todos os ícones do menu */
+div.menu{
+    margin: -8px;
+}
+/* São as divs responsáveis por cada ícone do menu */
+div.iconeMenu{
+    width: 18%;
+    float: left;
+    background-color: #0181FF;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    text-align: center;
+    transition: background-color 1s;
+}
+/* Estilo responsável pela transição de cor ao passar o mouse por cima dos ícones */
+div.iconeMenu:hover {
+    background-color: #0058CC;
+    color:white;
+}
+/* Links (a) de cada um dos icones da barra menu*/
+a.linksIcones{
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+/* Define toda a área branca da página */
+div.corpo{
+    background-color: white;
+    margin: -8px;
+}
+/* É a div que define a área central da parte branca da tela em que seram apresentadas as informações */
+div.manchete{
+    background-color: white;
+    width: 50%;
+    margin: 1% 1% 1% 25%;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0181FF;
+}
+/* Define características dos Links-Títulos */
+a.titulo{
+    color: #0181FF;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Define as características dos Links-Subtítulos */
+a.subtitulo{
+    color: #616161;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+/* Define a posição do nome do autor da carta */
+p.autorCarta{
+    text-align: right;
+    color: black;
+}
+/* Define características do texto */
+p.texto{
+    color: black;
+    text-align: justify;
+}
+/* É a div responsável pelas características da parte direita do site (editorial) */
+div.lateral{
+    width: 20%;
+    margin: 1% 1%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color:#006FFF;
+    color: white;
+    float: left;
+    padding: 1%;
+    border-radius: 10px;
+}
+/* Define o tamanho e a localização de algumas informações anteriores ao editorial */
+h1.direita{
+    text-align: right;
+    text-decoration: bold;
+    font-size: 20px;
+}
+/* Define o tamanho da fonte a ser utilizada no editorial */
+p.editorial{
+    font-size: 20px;
+}
+/* Define uma borda ao redor do texto */
+div.borda{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(151, 149, 149, 0.863);
+    border-radius: 10px;
+    margin: 2% 8% 2% 8%;
+    padding: 2%;
+}
+div.manchetePosicao{
+    margin: 2% 8% 2% 8%;
+    padding: 2%;
+}
+span.azul{
+    color: #0058CC;
+}
+div.rodape{
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+div.corpoRodape{
+    background-color: #f2f2f2;
+    width: 98%;
+    float: left;
+    padding: 1%;
+    color: #616161;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    text-align: center;
+}
+p.divisaoRodape{
+    float: left;
+    width: 32.67%;
+    font-size: 14px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a.contato{
+    text-decoration: none;
+    color: #616161;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
